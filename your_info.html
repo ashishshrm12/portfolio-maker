@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main_style.css">
+        <title>
+          Create Your Own Portfolio
+        </title>
+        <style>
+            body{
+                margin: 0%;
+                padding: 0%;
+            }
+            .background2
+            {
+                min-height: 100vh;
+                display:block;
+                position: relative;
+                margin: 0px;
+                padding: 0px;
+                /* border: 5px solid black; */
+            }
+            .background2::before
+            {
+                content:'';
+                /* background-image: url(https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg?size=626&ext=jpg&ga=GA1.2.333390048.1682894634&semt=ais); */
+                background-image: linear-gradient(white,skyblue);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: left;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                filter: blur(8px);
+            }
+            .h2
+            {
+                font-size: auto;
+                font-family: sans-serif;
+                text-align: left;
+                position: relative;
+                margin-top: 0px;
+                margin-left: 0px;
+                width: 1100px;
+            }
+            ul
+            {
+                position: fixed;
+                list-style-type: none;
+                background-color: black;
+                /* background-color: rgb(25, 210, 247); */
+                width:1430px;
+                padding:8px 16px;
+                overflow:hidden;
+            }
+
+            ul a
+            {
+                display: block;
+                color:red;
+                /* color:black; */
+                text-decoration: none;
+                padding:6px;
+            }
+            ul a:hover
+            {
+                width:fit-content;
+                /* background-color: rgb(210, 187, 241); */
+                background-color: red;
+                color:white;
+            }
+            ul{
+                float:var();
+            }
+            .but1
+            {
+
+            height:50px;
+            width: 180px;
+            /* background-color: rgb(255, 102, 0); */
+            background-color:black;
+            /* background-color: black; */
+            /* color: aliceblue; */
+            color:white;
+            border-radius: 5px;
+            box-shadow: 0px 0px 8px 8px rgb(106, 102, 102);
+            }
+        </style>
+    </head>
+    <body class="background2">
+        <div class="h2">
+            <ul>
+                <li"><a href="main.html">Home</a></li>
+            </ul><br><br>
+            
+            <form style="margin-left: 5px;">
+            <h1 style="background-color: black;color: aliceblue; padding-top: 8px; padding-left:8px;width: 1425px ;margin-top: 20px; height: 60px;"><u>Your Details</u></h1><br>
+
+            <div>
+                <label for="name:"><b>Name:</b></label>
+                <input type="text" placeholder="Enter your name" name="fname" id="name:" required>
+            </div><br>
+
+            <div>
+                <label for="Email:"><b>Email:</b></label>
+                <input type="email" placeholder="Enter your email" email="mail" id="Email:" required>
+            </div><br>
+
+            <div>
+                <b>Gender:</b>
+                <label for="Male">Male</label>
+                <input type="radio" name="g1" id="Male">
+                <label for="Female">Female</label>
+                <input type="radio" name="g1" id="Female">
+                <label for="Prefer not to say">Prefer not to say</label>
+                <input type="radio" name="g1" id="Prefer not to say"><br>
+            </div><br>
+            
+            <div>
+                <b>Country:</b>
+                <select name="Country" required>
+                    <option>USA</option>
+                    <option>Israel</option>
+                    <option>Russia</option>
+                    <option>Sri Lanka</option>
+                    <option>Nepal</option>
+                    <option>Germany</option>
+                    <option>Japan</option>
+                    <option selected>India</option>
+                    <option>UK</option>
+                </select>
+            </div><br>            
+
+            <div>
+                <b>State:</b>
+                <select name="State" required>
+                    <option>none</option>
+                    <option>Andhra Pradesh</option>
+                    <option>Arunachal Pradesh</option>
+                    <option>Assam</option>
+                    <option>Bihar</option>
+                    <option>Chhattisgarh</option>
+                    <option>Goa</option>
+                    <option>Gujarat</option>
+                    <option>Haryana</option>
+                    <option>Himachal Pradesh</option>
+                    <option>Jammu & Kashmir</option>
+                    <option>Jharkhand</option>
+                    <option>Karnataka</option>
+                    <option>Kerala</option>
+                    <option>Madhya Pradesh</option>
+                    <option>Maharashtra</option>
+                    <option>Manipur</option>
+                    <option>Meghalaya</option>
+                    <option>Mizoram</option>
+                    <option>Nagaland</option>
+                    <option>Odisha</option>
+                    <option>Punjab</option>
+                    <option>Rajasthan</option>
+                    <option>Sikkam</option>
+                    <option>Tamil Nadu</option>
+                    <option>Telangana</option>
+                    <option>Tripura</option>
+                    <option>Uttar Pardesh</option>
+                    <option>Uttarakhand</option>
+                    <option>West Bengal</option>
+                </select>
+            </div><br>
+            <div style="background-color: black;color: aliceblue; padding-top: 8px; padding-left:8px;width: 1425px ;height: 50px;">
+            <h2><u>Data Required To Create Your Portfolio:- </u></h2><br>
+            </div><br>
+
+            <div>
+                <b>Which template do you want to use?:</b><br>
+                <label for="Ashish jadon">1. Ashish Jadon's template:</label>
+                <input type="radio" name="a1" id="Ashish jadon"><br>
+                <label for="Ashish kumar">2. Ashish Kumar's template:</label>
+                <input type="radio" name="a1" id="Ashish kumar"><br>
+                <label for="Ashish ranjan">3. Ashish Ranjan's template:</label>
+                <input type="radio" name="a1" id="Ashish ranjan"><br>
+            </div><br>
+
+            <div>
+                <label for="about:"><b>About:</b></label><br>
+                <textarea name="about" placeholder="Enter about yourself" id="about:" rows="3" cols="40" required></textarea><br><br>
+            </div>
+            
+            <div>
+                <u><b>Contact Details:-</b></u><br>
+                <label for="linkedin"><b>LinkedIn:</b></label>
+                <input type="text" name="linkedin" id="linkedin"><br><br>
+                <label for="twitter"><b>Twitter:</b></label>
+                <input type="text" name="twitter" id="twitter"><br><br>
+                <label for="mail"><b>Professional Email:</b></label>
+                <input type="email" name="mail" id="mail">
+            </div><br><br>
+
+            <div>
+                <u><b>Your Skills:-</b></u><br><br>
+                <label for="skill1"><b>Skill I*:</b></label>
+                <input type="text" name="skill1" id="skill1" required><br><br>
+                <label for="skill2"><b>Skill II*:</b></label>
+                <input type="text" name="skill2" id="skill2" required><br><br>
+                <label for="skill3"><b>Skill III*:</b></label>
+                <input type="text" name="skill3" id="skill3" required><br><br>
+                <label for="skill4"><b>Skill IV:</b></label>
+                <input type="text" name="skill4" id="skill4"><br><br>
+                <label for="skill5"><b>Skill V:</b></label>
+                <input type="text" name="skill5" id="skill5"><br><br>
+                <label for="skill6"><b>Skill VI:</b></label>
+                <input type="text" name="skill6" id="skill6"><br><br>
+                <label for="skill7"><b>Skill VII:</b></label>
+                <input type="text" name="skill7" id="skill7">
+                
+            </div><br><br>
+
+            <div>
+                <label for="Current Work:"><b>Current Working Status:</b></label><br>
+                <textarea name="current Work" placeholder="Enter your current working status" id="Current Work:" required></textarea><br>
+                <label for="Previous work:"><b>Previous Working Status:</b></label><br>
+                <textarea name="Previous Work" placeholder="Enter your Previous working Status" id="Previous work:"></textarea>
+            </div><br>
+
+            <div>
+                <label for="edu:"><b>Educational Background:</b></label>
+                <input type="text" placeholder="Enter your Educational background" name="fname" id="edu:" style="width: 300px;" required>
+            </div><br>
+
+            <div>
+                <b>Upload Your professional Photo:</b> <input type="file" name="upload" required>
+            </div><br>
+
+            <div>
+                <input class="but1" type="submit" value="Create" style="margin-top:20px;"> 
+                <input class="but1" type="reset" value="Clear all" style="margin-left: 650px;">
+            </div><br>
+            </form>
+        </div>
+
+    </body>
+</html>
